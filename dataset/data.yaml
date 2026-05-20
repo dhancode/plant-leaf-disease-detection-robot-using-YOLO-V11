@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Early Blight', 'Healthy', 'Late Blight', 'Leaf Miner', 'Leaf Mold', 'Mosaic Virus', 'Septoria', 'Spider Mites', 'Yellow Leaf Curl Virus']
+
+roboflow:
+  workspace: bryan-b56jm
+  project: tomato-leaf-disease-ssoha
+  version: 63
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bryan-b56jm/tomato-leaf-disease-ssoha/dataset/63
